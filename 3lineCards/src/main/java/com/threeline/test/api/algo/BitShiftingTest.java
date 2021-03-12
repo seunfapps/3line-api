@@ -1,12 +1,7 @@
-package com.threeline.test.algo;
+package com.threeline.test.api.algo;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class Application {
-
-    public static void main(String [] args){
+public class BitShiftingTest {
+    public void process () {
         //let n = 10;
         int [] a = new int [] {1, 200, 122, 2999, 412, 302, 56, 58, 900, 1234};
         int [] b = new int [] {45, 600, 392, 812, 2500, 3192, 521, 31, 222, 6};
@@ -20,7 +15,7 @@ public class Application {
         System.out.println();
 
         int [] modified = encodeArray(a,b,a.length);
-        System.out.println("Modified array A");
+        System.out.println("Modified array A:");
         print(modified);
         System.out.println();
 
@@ -36,6 +31,7 @@ public class Application {
             System.out.print(extractB(modified[i]) + ",");
         }
         System.out.println();
+
     }
 
     static int encodeInteger(int x, int n){
