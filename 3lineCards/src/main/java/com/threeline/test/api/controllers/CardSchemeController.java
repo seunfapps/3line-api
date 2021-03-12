@@ -1,8 +1,8 @@
-package com.threeline.test.controllers;
+package com.threeline.test.api.controllers;
 
-import com.threeline.test.dtos.responses.CardSchemeResponse;
-import com.threeline.test.dtos.responses.StatsResponse;
-import com.threeline.test.services.CardSchemeService;
+import com.threeline.test.api.dtos.responses.CardSchemeResponse;
+import com.threeline.test.api.dtos.responses.StatsResponse;
+import com.threeline.test.api.services.CardSchemeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

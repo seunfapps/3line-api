@@ -1,4 +1,4 @@
-package com.threeline.test.dtos.responses;
+package com.threeline.test.api.dtos.responses;
 
 public class CardSchemeResponse {
     private boolean success;

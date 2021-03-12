@@ -1,4 +1,4 @@
-package com.threeline.test.dtos.responses;
+package com.threeline.test.api.dtos.responses;
 
 public class CardSchemeCountData {
     private String schemeId;

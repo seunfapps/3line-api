@@ -1,12 +1,11 @@
-package com.threeline.test.services;
+package com.threeline.test.api.services;
 
-import com.threeline.test.dtos.responses.CardSchemeCountData;
-import com.threeline.test.dtos.responses.CardSchemePayloadResponse;
-import com.threeline.test.dtos.responses.CardSchemeResponse;
-import com.threeline.test.dtos.responses.StatsResponse;
+import com.threeline.test.api.dtos.responses.CardSchemeCountData;
+import com.threeline.test.api.dtos.responses.CardSchemePayloadResponse;
+import com.threeline.test.api.dtos.responses.CardSchemeResponse;
+import com.threeline.test.api.dtos.responses.StatsResponse;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
